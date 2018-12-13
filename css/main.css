@@ -1,0 +1,209 @@
+     padding: 20;
+     margin: 20;
+     color: purple;
+
+     }
+
+
+     body {
+
+         background-color: blanchedalmond;
+     }
+
+
+     h1,
+     p {
+
+         color: blueviolet;
+         background-color: black;
+
+     }
+
+     p {
+
+         font-family: cursive;
+         font-size: 16px;
+         font-weight: bold;
+     }
+
+     .text {
+
+         font-size: 25px;
+
+
+     }
+
+
+
+
+     .emphasis {
+
+         font-weight: 600;
+     }
+
+
+     #unique {
+
+
+         color: aqua;
+
+     }
+
+
+     .box-model {
+         margin: 20px;
+         padding: 20px;
+         border: solid 50px aqua;
+
+         /* outline: solid;*/
+         width: 400px;
+         height: 400px;
+         overflow: scroll;
+}
+         
+      .border-box {
+             
+        box-sizing: content-box;
+             
+         }
+         
+         
+.block {
+    display: block;
+    
+
+}
+         
+.inline {
+    
+    display: inline;
+}         
+  
+
+.inline-block {
+    
+    display: inline-block;
+    
+}
+
+
+.none {
+    
+    display: none;
+}
+
+         /* makes box text ;*/
+
+     }
+
+
+
+
+
+@media only screen and (min-width: 650px) {
+    
+    h1 {
+        
+        color: green;
+        text-decoration: underline;
+        
+        
+    }
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 980px) {
+    
+    
+    h1 {
+        
+        color: blue;
+        
+        
+    }
+    
+    
+}
+
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.card {
+    
+    
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 2em auto;
+    height: 25vh;
+    width: 85vw;
+    max-width: 450px;
+    box-shadow: 2px 3px 4px black;
+    
+    @media screen and (min-width: 451) {
+        
+        .card {
+            
+            width: 44vw;
+            float: left;
+            margin: 2em 2.5vw;
+            
+        }
+        
+    }
+    
+    
+    @media screen and (min-width: 651px) {
+        
+        
+        .card {
+            
+            width: 29vw;
+            margin: 2em 2vw;
+            
+        }
+        
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
